@@ -9,6 +9,6 @@ print("\____|__  (____  /   __/ \____/|____/\___  >\___  >___|  /__|   \____/|__
 print("        \/     \/|__|                    \/     \/     \/                   \/     \/ ")
 
 src = os.environ['USERPROFILE'] + r"\AppData\Local\Google\Chrome"
-dst = input("Percorso destinazione: ")
+dst = input("Output directory: ")
 
 shutil.copytree(src, dst + r"\Chrome")
