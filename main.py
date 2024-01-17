@@ -5,9 +5,9 @@ src = os.environ['USERPROFILE'] + r"\AppData\Local\Google\Chrome\User Data"
 srcOut = ""
 
 def copy() :
-    shutil.copytree(src, srcOut)
+    shutil.copytree(src, srcOut) #Copy the chrome folder in the destination folder
 
-def progressBar(progress, total):
+def progressBar(progress, total): #Print the progression bar
     percent = 100 * (progress / float(total))
     bar = "█" * int(percent) + "-" * (100 - int(percent))
     if progress == total :
@@ -51,5 +51,3 @@ t = threading.Thread(target=copy)
 t.start()
 b = threading.Thread(target=checker , args=(src, srcOut))
 b.start()
-
-
