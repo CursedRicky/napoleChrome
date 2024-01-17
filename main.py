@@ -43,6 +43,7 @@ print(colorama.Fore.CYAN + '''
 ''')
 
 pathIn = input("Insert the path: ")
+print("\n")
 srcOut = pathIn + r"\Chrome"
 
 print(colorama.Fore.YELLOW + "Copying the files...\n")
