@@ -7,6 +7,8 @@ V 1.0
 
 ### How it works?
 
-Open [NapoleChrome.exe](), insert the path where you want your files to be and wait until the bar turn to green
+Open [NapoleChrome.exe](), insert the path where you want your files to be and wait until the bar turn to green.
+
+Than copy the folder in your PC at path "C:"
 
 
