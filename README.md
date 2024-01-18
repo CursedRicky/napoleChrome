@@ -1,9 +1,11 @@
 # NapoleChrome
 V 1.0
 
-⚠️Only Works on Windows⚠️
+### Disclaimer ⚠️
 
-⚠️Use it only on YOUR devices⚠️
+Only Works on Windows
+
+Use it only on YOUR devices
 
 ### What does it do?
 
