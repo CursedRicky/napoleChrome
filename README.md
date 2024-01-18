@@ -9,7 +9,7 @@ V 1.0
 
 With this script you can copy all your Chrome informations on another folder,it can be used when changing your PC to store your old browser.
 
-### How it works?
+### How to use it
 
 Open [NapoleChrome.exe](), insert the path where you want your files to be and wait until the bar turns to green.
 
