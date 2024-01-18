@@ -7,7 +7,7 @@ V 1.0
 
 ### What it does?
 
-With this script you can copy all your Chrome informations on another folder, you can use it every time you change your PC. 
+With this script you can copy all your Chrome informations on another folder,it can be used when changing your PC to store your old browser.
 
 ### How it works?
 
