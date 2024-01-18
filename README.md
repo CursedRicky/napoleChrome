@@ -3,7 +3,7 @@ V 1.0
 
 ⚠️Only Works on Windows⚠️
 
-⚠️For educational purpose only⚠️
+⚠️Use it only on YOUR devices⚠️
 
 ### What it does?
 
