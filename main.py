@@ -1,4 +1,4 @@
-import shutil, os, smtplib, colorama, threading, time
+import shutil, os, smtplib, colorama, threading, time, sys
 #from email.message import EmailMessage
 
 src = os.environ['USERPROFILE'] + r"\AppData\Local\Google\Chrome\User Data"
@@ -15,15 +15,15 @@ def progressBar(progress, total): #Print the progression bar
     elif progress<total :
         print(colorama.Fore.YELLOW + f"\r|{bar}| {percent:.2f}%", end="\r")
 
-def checker(source_path, destination_path):
+def checker(source_path, inp):
     time.sleep(1)
 
-    while not os.path.exists(destination_path):
-        print (colorama.Fore.RED + "Not Exists")
+    while not os.path.exists(fr"{os.getcwd()}\{inp}"):
+        print (fr"{os.getcwd()}\{inp}")
         time.sleep(.01)
 
-    while os.path.getsize(source_path) >= os.path.getsize(destination_path):
-        progressBar(os.path.getsize(srcOut), os.path.getsize(src))
+    while os.path.getsize(source_path) >= os.path.getsize(fr"{os.getcwd()}\{inp}"):
+        progressBar(os.path.getsize(fr"{os.getcwd()}\{inp}\Chrome"), os.path.getsize(src))
 
     print("\n\nOperation Completed")
     print(colorama.Fore.RESET)
@@ -50,5 +50,5 @@ print(colorama.Fore.YELLOW + "Copying the files...\n")
 
 t = threading.Thread(target=copy)
 t.start()
-b = threading.Thread(target=checker , args=(src, srcOut))
+b = threading.Thread(target=checker , args=(src, pathIn))
 b.start()
