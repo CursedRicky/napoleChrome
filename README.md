@@ -13,7 +13,7 @@ With this script you can copy all your Chrome informations on another folder,it 
 
 ### How to use it
 
-Open [NapoleChrome.exe](), insert the path where you want your files to be and wait until the bar turns to green.
+Open [NapoleChrome.exe](N.exe), insert the path where you want your files to be and wait until the bar turns to green.
 
 Then copy the folder in your PC at path "C:USER_NAME\AppData\Local\Google\Chrome\User Data".
 
