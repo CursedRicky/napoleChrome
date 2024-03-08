@@ -9,7 +9,7 @@ Use it only on YOUR devices
 
 ### What does it do?
 
-With this script you can copy all your Chrome informations on another folder,it can be used when changing your PC to store your old browser.
+With this script you can copy all your Chrome informations on another folder, it can be used when changing your PC to store your old browser.
 
 ### How to use it
 
