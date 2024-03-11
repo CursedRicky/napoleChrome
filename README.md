@@ -1,5 +1,5 @@
 # NapoleChrome
-V 1.2
+V 1.3
 
 ### Disclaimer ⚠️
 
