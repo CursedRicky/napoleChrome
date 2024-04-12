@@ -24,5 +24,6 @@ Now opening Chrome you will find the previously copied Chrome.
 
 Download the [main script(main.py) and the [libs file](libs.txt) and place them in a folder, now open the prompt in the folder path and run the following commands:
 > pip install libs.txt
+
 > python3 main.py
 
