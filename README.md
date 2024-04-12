@@ -3,7 +3,7 @@ V 1.3 CLI (Command Line Interface)
 
 ### Disclaimer ⚠️
 
-Only Works on Windows
+Only works on Windows
 
 Use it only on YOUR devices
 
